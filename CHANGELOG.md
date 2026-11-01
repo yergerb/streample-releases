@@ -4,6 +4,34 @@ Everything that changed in Streample, newest first. Each published version is al
 [releases page](https://github.com/yergerb/streample-releases/releases), where Streample's in-app
 updater gets it from.
 
+## 0.6.0 (2026-11-01)
+
+### Endless browsing
+- **Endless categories** on Home, Movies and Series: below the usual rows, new categories keep coming as you scroll, from three sources:
+  - TMDB combinations: genre × decade ("'90s Comedies"), country × genre ("Korean Crime Series", "Hong Kong Thrillers"), studios (A24, Pixar, Studio Ghibli…), networks (HBO, FX, Apple TV+…), "Critically Acclaimed …", "Hidden Gem …", "… Under 90 Minutes".
+  - Trakt public lists people made and voted on ("Rotten Tomatoes: Best Heist Movies of All Time", "Attenborough Documentaries").
+  - Rows from what you watch: "More Like [title]", "Starring [actor]", "Directed by [director]".
+- The feed **learns what you like**: kinds of categories you open titles from show up more often; ones you scroll past show up less. Your favourite genres get a boost.
+- **At least 10 titles per row** everywhere (thin rows are left out), and no category appears twice in one visit. A title can appear in several categories.
+- **Rows loop**: after the last title comes the first again, so sideways scrolling never ends (Top 10 doesn't loop).
+- The curated theme rows (Heists & Cons, Time Travel…) are now part of the endless mix on Movies and Series.
+
+### Home and Movies
+- Home order: Continue Watching, New Episodes, **Top 10 Today**, My List, Top Picks, Trending Movies, Trending Series, **Just Hit Digital**, Coming Soon, Because You Watched…, then endless categories.
+- **Just Hit Digital**: movies released digitally in the last two months (Home, and near the top of Movies).
+- A small **✓ on posters** you've watched (bottom-right corner).
+
+### Navigation
+- **Three very fast Left presses open the menu** from anywhere; holding Left only scrolls (it never opens the menu, even at the start of a row).
+- **Back once opens the menu**, anywhere outside the player; **Back twice quickly** goes back for real (to Home, out of the app from Home, or to the previous page from a title).
+- The menu's "Back to Movies / Series …" item goes straight back.
+
+### Search
+- **Category search**: typing "heist", "zombie", "80s", "korean", "a24"… also shows matching category rows.
+
+### Fixes
+- Fixed playback going black and jumping back a few seconds about 20 seconds into an episode: the video player now belongs to the episode, so nothing happening on screen can restart it.
+
 ## 0.5.3 (2026-10-31)
 - Player: press Down twice quickly to hide the controls.
 - **Skip Intro is one press**: when an intro starts, the controls tuck away and the Skip button is already selected, so OK skips. If the controls are up, their Skip button has focus first.
