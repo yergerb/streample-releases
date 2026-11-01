@@ -4,6 +4,10 @@ Everything that changed in Streample, newest first. Each published version is al
 [releases page](https://github.com/yergerb/streample-releases/releases), where Streample's in-app
 updater gets it from.
 
+## 0.5.3 (2026-10-31)
+- Player: press Down twice quickly to hide the controls.
+- **Skip Intro is one press**: when an intro starts, the controls tuck away and the Skip button is already selected, so OK skips. If the controls are up, their Skip button has focus first.
+
 ## 0.5.2 (2026-10-31)
 - The **Update available** card is a proper dialog: the remote stays on it until you choose Update now or Later (Home behind it no longer scrolls), and its notes show as plain text.
 - **Skip Intro**: press Right to select the button (it turns white), then OK to skip.
