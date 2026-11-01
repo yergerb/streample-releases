@@ -4,6 +4,10 @@ Everything that changed in Streample, newest first. Each published version is al
 [releases page](https://github.com/yergerb/streample-releases/releases), where Streample's in-app
 updater gets it from.
 
+## 0.5.2 (2026-10-31)
+- The **Update available** card is a proper dialog: the remote stays on it until you choose Update now or Later (Home behind it no longer scrolls), and its notes show as plain text.
+- **Skip Intro**: press Right to select the button (it turns white), then OK to skip.
+
 ## 0.5.1 (2026-10-31)
 
 The big settings, browsing and player update (it includes everything from the unreleased 0.4.1 and 0.5.0 test builds).
