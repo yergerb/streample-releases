@@ -111,9 +111,9 @@ Your keys stay on your TV. They're never built into the app or sent anywhere exc
 
 ## Good to know
 
-- **No sound?** Your TV or soundbar may not support passthrough for that format. Turn off *Surround passthrough* in Settings → Playback.
-- **Screen goes black for a second when a movie starts?** That's the TV switching to the film's frame rate. You can turn it off with *Match frame rate*. On a Shield, also turn on *Match content dynamic range* in the Shield's own display settings so HDR switches too.
-- **Something crashed?** Streample saves a report. Open the phone setup page from Settings and choose *Crash reports* to read or share it.
+- **No sound?** Your TV or soundbar may not support passthrough for that format. Turn off *Surround passthrough* in Settings → Advanced, or run Advanced → *Surround sound test* to see what your setup supports.
+- **Screen goes black for a second when a movie starts?** That's the TV switching to the film's frame rate. You can turn it off with *Match frame rate* in Settings → Advanced. On a Shield, also turn on *Match content dynamic range* in the Shield's own display settings so HDR switches too.
+- **Something crashed?** Streample saves a report. See Settings → Advanced → crash reports, or open the phone setup page (Settings → Library) and choose *Crash reports* to read or share it.
 
 ## Disclaimer
 
