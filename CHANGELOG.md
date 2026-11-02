@@ -4,6 +4,23 @@ Everything that changed in Streample, newest first. Each published version is al
 [releases page](https://github.com/yergerb/streample-releases/releases), where Streample's in-app
 updater gets it from.
 
+## 0.6.2 (2026-11-01)
+
+### Live TV
+- **Channel banner**: changing channel with Left/Right shows a small box top left for a few seconds: the channel's logo and name, what's on now with its times and a progress line, and what's next.
+- **New guide**: a strip across the top with the highlighted show's details (title, channel, times and progress, episode, description, what's next) and, at the right, a small window that keeps playing the channel you were watching. Back from a channel, or Guide in the player bar, lands here with it still playing; OK on the window goes back to full screen. The grid below shows about seven channels and opens on what you were watching.
+- **Hold OK on a channel** (list or guide) for a small menu beside it: Add to / Remove from Favorites, and **Hide channel**. Hidden channels leave every category, the guide, search and channel flipping, and show up under a new **Hidden** category at the bottom of the Live TV menu, where holding OK offers Unhide.
+- **Voice search** in Live TV Search: the mic beside the box works like the Search tab's (say a channel or a show).
+- Changing channel with Left/Right (or the remote's channel keys) no longer pops up the bar; the bar's own arrows still keep it up, and Up/Down/OK bring it up as before.
+- **Channel search**: Search at the top of the Live TV menu. Type (or say) a channel name ("espn") or a show that's on now ("football", "SportsCenter"); channels whose name matches come first, then channels showing a matching show.
+- **All channels** moved up the Live TV menu: Search, Favorites, All channels, then the categories.
+- Fixed crashes while browsing Live TV: switching category (or searching) now starts a fresh list (the old one was still holding the row you'd been on, which made it lay that row out twice); the preview uses one player and video window for the whole list; every row keeps the same height; and the list no longer rebuilds itself when the listings finish loading.
+- Listings that only say "no info available" no longer show that text.
+
+### Browsing
+- **Genres in the side menu**: hold OK on Movies or Series and its genres open right under it in the menu (Action, Comedy, Drama, Horror, Sci-Fi…); pick one for a page of that genre's rows (popular, new, top rated, hidden gems, then by decade). Hold OK again to close them; holding OK on the other one switches. A normal OK still opens Movies or Series as before.
+- **My List is now Watchlist** everywhere (menu, Home row, title pages). Same list, still synced with Trakt's watchlist.
+
 ## 0.6.1 (2026-11-01)
 
 ### Live TV (experimental, off by default)
