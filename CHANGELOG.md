@@ -4,6 +4,22 @@ Everything that changed in Streample, newest first. Each published version is al
 [releases page](https://github.com/yergerb/streample-releases/releases), where Streample's in-app
 updater gets it from.
 
+## 0.6.3 (2026-11-02)
+
+### Live TV
+- **Channel sources**: a channel listed under exactly the same name in more than one of your playlists is now one channel with several streams. The player bar shows "Source 1 of 2" (press it for the next), and a stream that won't play moves on to the next source by itself. HD versions, East/West feeds and other languages stay separate channels. (With the United States and Free-TV playlists both on, 43 channels merge.)
+- **Hold-OK menu is easier to use**: it stays open after you let go (the release used to pick the first option by itself) until you pick something; **Favorite** is now an On/Off switch you can flip while the menu stays open; holding OK again (or Back) closes it.
+- **Search looks inside shows too**: besides channel names, it matches each show's title, episode and description, for what's on now and the next 12 hours, with every word anywhere. "philadelphia eagles" finds the channel with Sunday Night Football from its description; channels found by a later show say which one and when ("Later: 8:20 PM · NBC Sunday Night Football").
+- **Local stations get their own listings**: NBC, CBS, ABC and FOX affiliates (WMAQ, KNTV, WBAL…) used to all show the national network schedule; they now use epgshare01's US Locals guide by call sign (141 of the 144 local stations in the US list), loaded in the background after the rest. A local station it can't match shows "No listing" rather than the network's. The network's West feed shows the national schedule three hours later.
+- **Back from a channel you opened in the guide** lands on the guide with that channel playing in the small window. The window now waits a moment for the full-screen player to let go and draws its video differently, which fixes it showing black with only sound on the Shield.
+
+### Home
+- **Continue Watching preview** (Settings → Playback, off by default): landing on a Continue Watching card plays it inside the card, from where you stopped, as soon as the stream has a picture (with sound unless Mute previews is on); move away and it stops. It uses the link you last played, or, for titles watched before this update, looks up the best direct (Real-Debrid) source the way Play does. Not for torrents, or for shows whose next episode is "Up next".
+- **Watchlist on Home** (Settings → Playback, on by default): turn it off to leave the Watchlist row off Home; the Watchlist tab stays.
+- **Mute previews** (Settings → Playback, off by default): Continue Watching and Live TV previews play with sound unless this is on.
+- Fixed the side menu losing your place when you held OK on Series while Movies' genres were open (or the other way round): the entry you held stays highlighted and in view as one list closes and the other opens.
+- **Trailer previews** (Settings → Playback, off by default): land on a poster in Home, Movies or Series rows and it widens into a tile and plays the title's trailer (from YouTube, through NewPipeExtractor), then shrinks back to the poster when the trailer ends or you move on. Not on Top 10 rows. Sound follows Mute previews.
+- The title page's **Trailer** button now also appears for titles Cinemeta has no trailer for, using TMDB's.
 ## 0.6.2 (2026-11-01)
 
 ### Live TV
