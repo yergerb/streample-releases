@@ -4,6 +4,11 @@ Everything that changed in Streample, newest first. Each published version is al
 [releases page](https://github.com/yergerb/streample-releases/releases), where Streample's in-app
 updater gets it from.
 
+## 0.6.4 (2026-11-11)
+
+### Player
+- **Now Playing works**: Streample now tells the TV what it's playing, so the Shield's Now Playing, Home Assistant and other remotes show the title (with the episode), artwork, length, position and whether it's playing or paused, the way they do for YouTube. They can also play, pause, seek and skip to the next episode. It carries on through the next episode or a switch to VLC, and clears itself when you stop watching. Live TV channels show the channel and its logo.
+
 ## 0.6.3 (2026-11-02)
 
 ### Live TV
